@@ -54,8 +54,8 @@
 
               <td class="text-right">
                 <i class="fas fa-users" data-toggle="tooltip" data-placement="top" title="View students" @click="viewCourseStudents('${course.id}')"></i>
-                <i class="fas fa-edit" data-toggle="tooltip" data-placement="top" title="Edit student data"  @click="updateCourse('${course.id}','${course.title}','${course.description}')"></i>
-                <i class="fas fa-minus-square" data-toggle="tooltip" data-placement="top" title="Delete student" @click="deleteCourse('${course.id}')"></i>
+                <i class="fas fa-edit" data-toggle="tooltip" data-placement="top" title="Edit course data"  @click="updateCourse('${course.id}','${course.title}','${course.description}')"></i>
+                <i class="fas fa-minus-square" data-toggle="tooltip" data-placement="top" title="Delete course" @click="deleteCourse('${course.id}')"></i>
               </td>
             </tr>  
           </c:forEach> 

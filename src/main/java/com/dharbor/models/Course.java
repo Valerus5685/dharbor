@@ -3,6 +3,7 @@ package com.dharbor.models;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -22,7 +23,7 @@ public class Course{
 	private String title;
 	private String description;
 	
-	@ManyToMany(mappedBy = "courses", fetch = FetchType.LAZY)
+	@ManyToMany(mappedBy = "courses", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     private Set<Student> students = new HashSet<>();
 	
 	

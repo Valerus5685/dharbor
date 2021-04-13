@@ -53,8 +53,7 @@ var app = new Vue({
       .then(response => {
         location.reload();
       })
-      .catch(error => console.error(error));
-
+      .catch(error => alert("This course cannot be deleted because has students"));
     },
     viewCourseStudents(courseId){
       window.location = "/course/"+courseId+"/students";
