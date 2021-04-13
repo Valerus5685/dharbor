@@ -30,6 +30,7 @@ You do not see any errors, the project works correctly. it's time to enjoy. do n
   <li>JSTL. For views rendered in server</li>
   <li>H2 Database</li>
   <li>VUEJS. For views in client side</li>
+  <li>AXIOS. For asynchronous http requests</li>
   <li>Bootstrap 4</li>
   <li>Font awesome.</li>
 </ul>
