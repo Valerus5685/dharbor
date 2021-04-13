@@ -34,3 +34,8 @@ You do not see any errors, the project works correctly. it's time to enjoy. do n
   <li>Bootstrap 4</li>
   <li>Font awesome.</li>
 </ul>
+
+
+### For testing from source code
+
+Use SPRING TOOL SUITE and import the project.
